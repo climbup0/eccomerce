@@ -422,7 +422,7 @@ img {
             <div class="el-wrapper">
               <div class="box-up">
 
-                <img  class="img" src="{% if p.product_image %}{{ p.product_image }}{% endif %}">
+                <img  class="img" src="{% if p.product_image %}{{p.product_image.url }}{% endif %}">
                 <div class="img-info">
                   <div class="info-inner">
                     <span style="background-color:#3e454c; color:fbfbfb;"class="p-company"><a href="{% url 'product' p.id%}">{{p.name}}</a></span>

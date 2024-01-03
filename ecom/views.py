@@ -26,7 +26,7 @@ def home_view(request):
 
 class Detail(DetailView):
     model = Product
-    template_name = "ecom/detiL.html"
+    template_name = "ecom/detIL.html"
 
 
 # for showing login button for admin(by sumit)
