@@ -1,5 +1,5 @@
 """
-ASGI ecommerce for ecommerce project.
+ASGI config for ecommerce project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
