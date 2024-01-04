@@ -43,9 +43,7 @@
       {% for product,customer,order in data %}
       <tr>
         {% for c in customer %}
-        <td> {{c.get_name}}</td>
         <td>{{c.mobile}}</td>
-        <td>{{order.address}}</td>
 
         {% endfor %}
         {% for p in product %}
